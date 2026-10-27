@@ -13,3 +13,9 @@ bootstrap refuses any file that does not match. Nothing is published here until 
 review of the exact package is complete.
 
 Status: no package published yet.
+
+## v1/host-readonly-report.sh
+Read-only host assessment (changes nothing, no network, prints no secret values).
+Pinned SHA-256: `18845b4538425ec774ac505cc3ac2a2162df97baf8973c54891e465ceaf8108f` (see `v1/SHA256SUMS`).
+Source: royasazan/Media-Network, branch ops/runner-readiness (0c6ee4c), scripts/ops/host-readonly-report.sh.
+Verify before running: `sha256sum -c SHA256SUMS`.
